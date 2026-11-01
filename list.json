@@ -1,0 +1,5342 @@
+[
+  {
+    "name": "Bash",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Blue"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname": "Bop"
+      }
+    ]
+  },
+  {
+    "name": "Boomer",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Silver"
+      }
+    ]
+  },
+  {
+    "name": "Camo",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Red"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 2",
+        "variant_type": "Thorn Horn"
+      }
+    ]
+  },
+  {
+    "name": "Chop Chop",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Gold"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Metallic Blue"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Green"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Twin Blade"
+      }
+    ]
+  },
+  {
+    "name": "Cynder",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Crystal Clear"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Metallic Purple"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Glow-in-the-Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Phantom"
+      }
+    ]
+  },
+  {
+    "name": "Dino-Rang",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Silver"
+      }
+    ]
+  },
+  {
+    "name": "Double Trouble",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Royal"
+      }
+    ]
+  },
+  {
+    "name": "Drill Sergeant",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Gold"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Red"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      }
+    ]
+  },
+  {
+    "name": "Drobot",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname":"Drobit"
+      }
+    ]
+  },
+  {
+    "name": "Eruptor",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Baby",
+        "nickname":"Weeruptor"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname":"Eggsellent Weeruptor"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Lava Barf"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Silver"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "White Flocked"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Volcanic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Lava Lance"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Chase Variant",
+        "variant_type": "Patina Lava Lance"
+      }
+    ]
+  },
+  {
+    "name": "Flameslinger",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Gold"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Golden"
+      }
+    ]
+  },
+  {
+    "name": "Ghost Roaster",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Gill Grunt",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Green"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Metallic Green"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Deep Dive"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Series 4",
+        "variant_type": "Tidal Wave"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Series Anchors Away"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Sidekicks",
+        "variant_type": "Baby",
+        "nickname": "Gill Runt"
+      }
+    ]
+  },
+  {
+    "name": "Hex",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname": "Hijinx"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Pearl"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      }
+    ]
+  },
+  {
+    "name": "Ignitor",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Lightning Rod",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Metallic Purple"
+      }
+    ]
+  },
+  {
+    "name": "Prism Break",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Hyper Beam"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Employee Edition LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "White Flocked LightCore"
+      }
+    ]
+  },
+  {
+    "name": "Slam Bam",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Sonic Boom",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Glow-in-the-Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Sparkle"
+      }
+    ]
+  },
+  {
+    "name": "Spyro",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname": "Spry"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Chrome"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Mega Ram"
+      }
+    ]
+  },
+  {
+    "name": "Stealth Elf",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Ninja"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Ninja"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Crystal Clear"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Super Shot"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Dark Super Shot"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Sidekicks",
+        "variant_type": "Baby",
+        "nickname": "Whisper Elf"
+      }
+    ]
+  },
+  {
+    "name": "Stump Smash",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Flocked"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "White Flocked"
+      }
+    ]
+  },
+  {
+    "name": "Sunburn",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Terrafin",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname":"Terrabite"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Shark Shooter"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Knockout"
+      }
+    ]
+  },
+  {
+    "name": "Trigger Happy",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Sidekicks",
+        "variant_type": "Baby",
+        "nickname": "Trigger Snappy"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Springtime"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Double Dare"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Power Blue"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Flocked Springtime"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Big Bang"
+      }
+    ]
+  },
+  {
+    "name": "Voodood",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Warnado",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Glow-in-the-Dark"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      }
+    ]
+  },
+  {
+    "name": "Wham-Shell",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Crystal Clear"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      }
+    ]
+  },
+  {
+    "name": "Whirlwind",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Crystal Clear"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname": "Breeze"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 3",
+        "variant_type": "Horn Blast"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Polar"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Stone"
+      }
+    ]
+  },
+  {
+    "name": "Wrecking Ball",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Glow-in-the-Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Metallic Purple"
+      }
+    ]
+  },
+  {
+    "name": "Zap",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Chase Variant",
+        "variant_type": "Glow-in-the-Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      }
+    ]
+  },
+  {
+    "name": "Zook",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Series 2",
+        "variant_type": "Series 2"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Stone"
+      }
+    ]
+  },
+  {
+    "name": "Anvil Rain",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Darklight Crypt",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Dragon’s Peak",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Empire of Ice",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Ghost Swords",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Healing Elixir",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Hidden Treasure",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Pirate Seas",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Sky-Iron Shield",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Sparx Dragonfly",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Time Twister",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Volcanic Vault",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Winged Boots",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Spyro’s Adventure",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Bouncer",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Giants",
+        "variant_type": "Giants"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Crusher",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Giants",
+        "variant_type": "Giants"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Granite"
+      }
+    ]
+  },
+  {
+    "name": "Eye-Brawl",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Giants",
+        "variant_type": "Giants"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Metallic Purple"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Pumpkin"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Sidekicks",
+        "variant_type": "Baby",
+        "nickname": "Eye-Small"
+      }
+    ]
+  },
+  {
+    "name": "Hot Head",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Giants",
+        "variant_type": "Giants"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Sparkle"
+      }
+    ]
+  },
+  {
+    "name": "Ninjini",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Giants",
+        "variant_type": "Giants"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Scarlet"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Sidekicks",
+        "variant_type": "Baby",
+        "nickname": "Mini-Jini"
+      }
+    ]
+  },
+  {
+    "name": "Swarm",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Giants",
+        "variant_type": "Giants"
+      }
+    ]
+  },
+  {
+    "name": "Tree Rex",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Giants",
+        "variant_type": "Giants"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Gnarly"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Baby",
+        "nickname": "Gnarly Barkley"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Sidekicks",
+        "variant_type": "Baby",
+        "nickname": "Barkley"
+      }
+    ]
+  },
+  {
+    "name": "Chill",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 2",
+        "variant_type": "Blizzard"
+      }
+    ]
+  },
+  {
+    "name": "Flashwing",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Jade"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      }
+    ]
+  },
+  {
+    "name": "Fright Rider",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Glow-in-the-Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Halloween"
+      }
+    ]
+  },
+  {
+    "name": "Hot Dog",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Molten"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Green"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Purple"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Red"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 2",
+        "variant_type": "Fire Bone"
+      }
+    ]
+  },
+  {
+    "name": "Jet-Vac",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary Hurricane"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname": "Pet Vac"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Baby",
+        "nickname": "Power Punch Pet Vac"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Series 3",
+        "variant_type": "Full Blast"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 2",
+        "variant_type": "Turbo"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Hurricane"
+      }
+    ]
+  },
+  {
+    "name": "Pop Fizz",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Series 3",
+        "variant_type": "Fizzy Frenzy"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "In-Game Variant",
+        "variant_type": "Punch"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Love Potion"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Big Bubble"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Birthday Bash Big Bubble"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 2",
+        "variant_type": "Super Gulp"
+      }
+    ]
+  },
+  {
+    "name": "Shroomboom",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Series 2",
+        "variant_type": "Sure Shot"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Metallic Green"
+      }
+    ]
+  },
+  {
+    "name": "Sprocket",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Chase Variant",
+        "variant_type": "Sparkle"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Heavy Metal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Series 2",
+        "variant_type": "Heavy Duty"
+      }
+    ]
+  },
+  {
+    "name": "Cannon",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Magic Items Variant",
+        "variant_type": "Dragonfire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Magic Items Variant",
+        "variant_type": "Golden Dragonfire"
+      }
+    ]
+  },
+  {
+    "name": "Chest",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Magic Items Variant",
+        "variant_type": "Platinum Treasure"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Magic Items",
+        "variant_type": "Cursed TikiTemple Blue"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Magic Items",
+        "variant_type": "Lost Imaginite Mines Blue"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Magic Items",
+        "variant_type": "Bronze Mystery"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Magic Items",
+        "variant_type": "Gold Mystery"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Magic Items",
+        "variant_type": "Silver"
+      }
+    ]
+  },
+  {
+    "name": "Scorpion Striker Catapult",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Thumpback",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Giants",
+        "variant_type": "Giants"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Giants",
+        "type": "Sidekicks",
+        "variant_type": "Baby",
+        "nickname": "Thumpling"
+      }
+    ]
+  },
+  {
+    "name": "Blast Zone",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Boom Jet",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Doom Stone",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Gold & Bronze"
+      }
+    ]
+  },
+  {
+    "name": "Kraken",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Fire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Jade Fire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Gold Fire"
+      }
+    ]
+  },
+  {
+    "name": "Free Ranger",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Freeze Blade",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Nitro"
+      }
+    ]
+  },
+  {
+    "name": "Grilla Drilla",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Hoot Loop",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Enchanted"
+      }
+    ]
+  },
+  {
+    "name": "Magna Charge",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Nitro"
+      }
+    ]
+  },
+  {
+    "name": "Night Shift",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Rattle Shake",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Quick Draw"
+      }
+    ]
+  },
+  {
+    "name": "Rubble Rouser",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Spy Rise",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Stink Bomb",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Silver & Gold"
+      }
+    ]
+  },
+  {
+    "name": "Trap Shadow",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Bronze & Silver"
+      }
+    ]
+  },
+  {
+    "name": "Wash Buckler",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Swappers",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Gold"
+      }
+    ]
+  },
+  {
+    "name": "Countdown",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Kickoff"
+      }
+    ]
+  },
+  {
+    "name": "Dune Bug",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Metallic Red"
+      }
+    ]
+  },
+  {
+    "name": "Fryno",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Mini Skylanders",
+        "variant_type": "Baby",
+        "nickname":"Small Fry"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Series 2",
+        "variant_type": "Hog Wild"
+      }
+    ]
+  },
+  {
+    "name": "Grim Creeper",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary LightCore"
+      }
+    ]
+  },
+  {
+    "name": "Pop Thorn",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Punk Shock",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Rip Tide",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Green"
+      }
+    ]
+  },
+  {
+    "name": "Roller Brawl",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Bone Bash"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary Bone Bash"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Chase Variant",
+        "variant_type": "Bronze Bone Bash"
+      }
+    ]
+  },
+  {
+    "name": "Scorp",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Green"
+      }
+    ]
+  },
+  {
+    "name": "Scratch",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Slobber Tooth",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Smolderdash",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Chase Variant",
+        "variant_type": "Snowderdash"
+      }
+    ]
+  },
+  {
+    "name": "Star Strike",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Enchanted LightCore"
+      }
+    ]
+  },
+  {
+    "name": "Wind Up",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Zoo Lou",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Bumble Blast",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "LightCore",
+        "variant_type": "LightCore"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "In-Game Variant",
+        "variant_type": "Jolly"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Arkeyan Crossbow",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Battle Hammer",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Fiery Forge",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Groove Machine",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Platinum Sheep",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Sheep Wreck Island",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Sky Diamond",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Tower of Time",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "UFO Hat Card",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Swap Force",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Blastermind",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Bushwhack",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Enigma",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Gearshift",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Gusto",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Head Rush",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Nitro"
+      }
+    ]
+  },
+  {
+    "name": "Jawbreaker",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Ka-Boom",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Knight Light",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Knight Mare",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Krypt King",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Nitro"
+      }
+    ]
+  },
+  {
+    "name": "Lob-Star",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Winterfest"
+      }
+    ]
+  },
+  {
+    "name": "Short Cut",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Chase Variant",
+        "variant_type": "Clear"
+      }
+    ]
+  },
+  {
+    "name": "Snap Shot",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Thunderbolt",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Chase Variant",
+        "variant_type": "Clear"
+      }
+    ]
+  },
+  {
+    "name": "Tuff Luck",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Chase Variant",
+        "variant_type": "Clear"
+      }
+    ]
+  },
+  {
+    "name": "Wallop",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Wildfire",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Masters",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Bat Spin",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Blackout",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Blades",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Chopper",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Cobra Cadabra",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "King"
+      }
+    ]
+  },
+  {
+    "name": "Deja Vu",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Echo",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Fist Bump",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Fling Kong",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Flip Wreck",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Food Fight",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Funny Bone",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "High Five",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Rocky Roll",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Spotlight",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Torch",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Torch",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Life"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Fire"
+      }
+    ]
+  },
+  {
+    "name": "Trail Blazer",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Tread Head",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Core Skylanders",
+        "variant_type": "Series 1"
+      }
+    ]
+  },
+  {
+    "name": "Hand of Fate",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Midnight Museum",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Mirror of Mystery",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Nightmare Express",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Piggy Bank",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Rocket Ram",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Sunscraper Spire",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Tiki Speaky",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Magic Items Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Hourglass",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Earth"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Magic"
+      }
+    ]
+  },
+  {
+    "name": "Jughead",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Water"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Variants",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Screamer",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Fire"
+      }
+    ]
+  },
+  {
+    "name": "Snake",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Life"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Undead"
+      }
+    ]
+  },
+  {
+    "name": "Sword",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Life"
+      }
+    ]
+  },
+  {
+    "name": "Toucan",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Earth"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Life"
+      }
+    ]
+  },
+  {
+    "name": "Handstand",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Tech"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Earth"
+      }
+    ]
+  },
+  {
+    "name": "Spider",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Hammer",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Earth"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Life"
+      }
+    ]
+  },
+  {
+    "name": "Orb",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Earth"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Undead"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Variants",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Totem",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Earth"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Fire"
+      }
+    ]
+  },
+  {
+    "name": "Captain’s Hat",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Fire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Undead"
+      }
+    ]
+  },
+  {
+    "name": "Scepter",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Fire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Tech"
+      }
+    ]
+  },
+  {
+    "name": "Yawn",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Fire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Life"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Light"
+      }
+    ]
+  },
+  {
+    "name": "Kaos Trap",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Variants",
+        "variant_type": "Ultimate"
+      }
+    ]
+  },
+  {
+    "name": "Owl",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Light"
+      }
+    ]
+  },
+  {
+    "name": "Rocket",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Light"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Life"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Water"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Earth"
+      }
+    ]
+  },
+  {
+    "name": "Axe",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Water"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Undead"
+      }
+    ]
+  },
+  {
+    "name": "Log Holder",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Water"
+      }
+    ]
+  },
+  {
+    "name": "Skull",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Undead"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Variants",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Angel",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Tech"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Water"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Fire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Light"
+      }
+    ]
+  },
+  {
+    "name": "Flying Helmet",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Tech"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Water"
+      }
+    ]
+  },
+  {
+    "name": "Hand",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Tech"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Undead"
+      }
+    ]
+  },
+  {
+    "name": "Tiki",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Tech"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap",
+        "variant_type": "Water"
+      }
+    ]
+  },
+  {
+    "name": "Easter Bunny",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Variants",
+        "variant_type": "Earth"
+      }
+    ]
+  },
+  {
+    "name": "Outlaw Brawl and Chain",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Villain Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Rebel Lob Goblin",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Villain Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Hot Tussle Sprout",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Villain Variant",
+        "variant_type": "Red"
+      }
+    ]
+  },
+  {
+    "name": "Riot Shield Shredder",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Villain Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Steamed Broccoli Guy",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Villain Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Steampunk Shrednaught",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Trap Team",
+        "type": "Trap Villain Variant",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Astroblast",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Dive-Clops",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Missile-Tow"
+      }
+    ]
+  },
+  {
+    "name": "Fiesta",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Frightful"
+      }
+    ]
+  },
+  {
+    "name": "Bowser",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Hammer Slam"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Dark Hammer Slam"
+      }
+    ]
+  },
+  {
+    "name": "High Volt",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Chase Variant",
+        "variant_type": "Patina"
+      }
+    ]
+  },
+  {
+    "name": "Nightfall",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      }
+    ]
+  },
+  {
+    "name": "Smash Hit",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Steel Plated"
+      }
+    ]
+  },
+  {
+    "name": "Spitfire",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Splat",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Power Blue"
+      }
+    ]
+  },
+  {
+    "name": "Stormblade",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Chase Variant",
+        "variant_type": "Snow-Brite"
+      }
+    ]
+  },
+  {
+    "name": "Thrillipede",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "SuperCharger"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Eggcited"
+      }
+    ]
+  },
+  {
+    "name": "Donkey Kong",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "SuperCharger",
+        "variant_type": "Turbo Charge"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "In-Game Variant",
+        "variant_type": "Dark Turbo Charge"
+      }
+    ]
+  },
+  {
+    "name": "Barrel Blaster",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Burn-Cycle",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Chase Variant",
+        "variant_type": "Patina"
+      }
+    ]
+  },
+  {
+    "name": "Buzz Wing",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      }
+    ]
+  },
+  {
+    "name": "Clown Cruiser",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Crypt Crusher",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      }
+    ]
+  },
+  {
+    "name": "Dive Bomber",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Spring Ahead"
+      }
+    ]
+  },
+  {
+    "name": "Gold Rusher",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Power Blue"
+      }
+    ]
+  },
+  {
+    "name": "Hot Streak",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Event Exclusive"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Golden"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Mobile"
+      }
+    ]
+  },
+  {
+    "name": "Jet Stream",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      }
+    ]
+  },
+  {
+    "name": "Reef Ripper",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      }
+    ]
+  },
+  {
+    "name": "Sea Shadow",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Shark Tank",
+    "variants": [
+      {
+        "owned": true,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      }
+    ]
+  },
+  {
+    "name": "Shield Striker",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Chase Variant",
+        "variant_type": "Patina"
+      }
+    ]
+  },
+  {
+    "name": "Sky Slicer",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      }
+    ]
+  },
+  {
+    "name": "Soda Skimmer",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Nitro"
+      }
+    ]
+  },
+  {
+    "name": "Splatter Splasher",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Power Blue"
+      }
+    ]
+  },
+  {
+    "name": "Stealth Stinger",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Nitro"
+      }
+    ]
+  },
+  {
+    "name": "Sun Runner",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Thump Truck",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      }
+    ]
+  },
+  {
+    "name": "Tomb Buggy",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Vehicle",
+        "variant_type": "Normal"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Chase Variant",
+        "variant_type": "Bronze"
+      }
+    ]
+  },
+  {
+    "name": "Trophy",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Magic Items",
+        "variant_type": "Kaos"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Magic Items",
+        "variant_type": "Land"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Magic Items",
+        "variant_type": "Sea"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders SuperChargers",
+        "type": "Magic Items",
+        "variant_type": "Sky"
+      }
+    ]
+  },
+  {
+    "name": "Strike",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "In-Game Variant",
+        "variant_type": "Egg Bomber"
+      }
+    ]
+  },
+  {
+    "name": "Ambush",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Aurora",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "In-Game Variant",
+        "variant_type": "Solar Flare"
+      }
+    ]
+  },
+  {
+    "name": "Barbella",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Chase Variant",
+        "variant_type": "Pink"
+      }
+    ]
+  },
+  {
+    "name": "Boom Bloom",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Buckshot",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "In-Game Variant",
+        "variant_type": "Heartbreaker"
+      }
+    ]
+  },
+  {
+    "name": "Chain Reaction",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Chase Variant",
+        "variant_type": "Orange"
+      }
+    ]
+  },
+  {
+    "name": "Chopscotch",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "In-Game Variant",
+        "variant_type": "Candy-Coated"
+      }
+    ]
+  },
+  {
+    "name": "Crash Bandicoot",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Dr. Neo Cortex",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Ember",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Chase Variant",
+        "variant_type": "Dec"
+      }
+    ]
+  },
+  {
+    "name": "Flare Wolf",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "In-Game Variant",
+        "variant_type": "Hard-Boiled"
+      }
+    ]
+  },
+  {
+    "name": "King Pen",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "In-Game Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Mysticat",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Pit Boss",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Ro-Bow",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Starcast",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Chase Variant",
+        "variant_type": "Clear"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Chase Variant",
+        "variant_type": "Clear"
+      }
+    ]
+  },
+  {
+    "name": "Tidepool",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Tri-Tip",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "In-Game Variant",
+        "variant_type": "Legendary"
+      }
+    ]
+  },
+  {
+    "name": "Wild Storm",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Bad Juju",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain Variant",
+        "variant_type": "Mystical"
+      }
+    ]
+  },
+  {
+    "name": "Blaster-Tron",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Chompy Mage",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain Variant",
+        "variant_type": "Jingle Bell"
+      }
+    ]
+  },
+  {
+    "name": "Dr. Krankcase",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Queen",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Golden"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain Variant",
+        "variant_type": "GoldenDark"
+      }
+    ]
+  },
+  {
+    "name": "Grave Clobber",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Hood Sickle",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain Variant",
+        "variant_type": "Steel Plated"
+      }
+    ]
+  },
+  {
+    "name": "Kaos",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Pain-Yatta",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Chase Variant",
+        "variant_type": "Rock Candy"
+      }
+    ]
+  },
+  {
+    "name": "Tae Kwon Crow",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain Variant",
+        "variant_type": "Mystical"
+      }
+    ]
+  },
+  {
+    "name": "Wolfgang",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain",
+        "variant_type": "Unknown"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Sensei Villain Variant",
+        "variant_type": "Dark"
+      }
+    ]
+  },
+  {
+    "name": "Acorn",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Fire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Life"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals Variant",
+        "variant_type": "Legendary Life"
+      }
+    ]
+  },
+  {
+    "name": "Lantern",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Air"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals Variant",
+        "variant_type": "Legendary Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Undead"
+      }
+    ]
+  },
+  {
+    "name": "Pyramid",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Tech"
+      }
+    ]
+  },
+  {
+    "name": "Reactor",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Fire"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Tech"
+      }
+    ]
+  },
+  {
+    "name": "Rune",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Dark"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Life"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Light"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Earth"
+      }
+    ]
+  },
+  {
+    "name": "Armor",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Earth"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Tech"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Water"
+      }
+    ]
+  },
+  {
+    "name": "Claw",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Life"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Magic"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Undead"
+      }
+    ]
+  },
+  {
+    "name": "Fanged",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Light"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals Variant",
+        "variant_type": "Legendary Light"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Undead"
+      },
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Creation Crystals",
+        "variant_type": "Water"
+      }
+    ]
+  },
+  {
+    "name": "Elven Forest",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Magic Items",
+        "variant_type": "Enchanted"
+      }
+    ]
+  },
+  {
+    "name": "Gryphon Park Observatory",
+    "variants": [
+      {
+        "owned": false,
+        "rating": false,
+        "serie": "Skylanders Imaginators",
+        "type": "Magic Items",
+        "variant_type": "Unknown"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1211 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset=utf8>
+  <meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <style>
+    :root {
+      color-scheme: light;
+      box-sizing: border-box;
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-bottom: env(safe-area-inset-bottom, 0px)
+    }
+
+    html {
+      scroll-padding-top: env(safe-area-inset-top, 0px)
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font: 14px -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #fff;
+      color: #000
+    }
+
+    img {
+      max-width: 100%
+    }
+
+    [hidden]:not([hidden=until-found i]) {
+      display: none !important
+    }
+
+    .character-image {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      border-radius: 10px;
+      background: var(--surface-2);
+      padding: 8px;
+    }
+
+    .card {
+      /* Keep your existing styles */
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <title>Skylanders Collection</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Lilita+One&display=swap">
+  <style>
+    /* Layout: one summary band, three facet panels (serie / type / variant type), then a card grid of characters with a toggle per variant. */
+    :root {
+      --bg: #edf2f5;
+      --surface: #ffffff;
+      --surface-2: #f4f8fa;
+      --ink: #0e2231;
+      --muted: #57707f;
+      --line: #d2dee5;
+      --accent: #0b7fb5;
+      --accent-ink: #ffffff;
+      --accent-soft: #d9eef8;
+      --ok: #1b8750;
+      --ok-soft: #dcf2e5;
+      --miss: #b4571b;
+      --not-played: #afb41b;
+      --font-display: "Lilita One", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+      --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #0a1620;
+        --surface: #112331;
+        --surface-2: #0e1d29;
+        --ink: #e5f1f8;
+        --muted: #8ba5b5;
+        --line: #1e3646;
+        --accent: #3cc3fb;
+        --accent-ink: #04202e;
+        --accent-soft: #12394e;
+        --ok: #4fd38b;
+        --ok-soft: #123b29;
+        --miss: #f0a066;
+        color-scheme: dark;
+      }
+    }
+
+    :root[data-theme="dark"] {
+      --bg: #0a1620;
+      --surface: #112331;
+      --surface-2: #0e1d29;
+      --ink: #e5f1f8;
+      --muted: #8ba5b5;
+      --line: #1e3646;
+      --accent: #3cc3fb;
+      --accent-ink: #04202e;
+      --accent-soft: #12394e;
+      --ok: #4fd38b;
+      --ok-soft: #123b29;
+      --miss: #f0a066;
+      color-scheme: dark;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.45;
+      padding-block: 20px 48px;
+      padding-left: max(16px, env(safe-area-inset-left, 0px));
+      padding-right: max(16px, env(safe-area-inset-right, 0px));
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      margin: 0;
+      text-wrap: balance;
+      letter-spacing: .01em;
+    }
+
+    button {
+      font: inherit;
+      color: inherit;
+      cursor: pointer;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 6px;
+    }
+
+    .num {
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* summary */
+    .summary {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 22px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: 24px;
+    }
+
+    .summary h1 {
+      font-size: 34px;
+      line-height: 1.05;
+    }
+
+    .sub {
+      color: var(--muted);
+      margin: 6px 0 0;
+      max-width: 52ch;
+    }
+
+    .big {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .big b {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 56px;
+      line-height: 1;
+      color: var(--accent);
+    }
+
+    .big span {
+      color: var(--muted);
+    }
+
+    .side {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      justify-content: flex-end;
+      min-width: 0;
+    }
+
+    .kv {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .kv .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+    }
+
+    .kv .lab {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .kv .val {
+      font-weight: 700;
+    }
+
+    .bar {
+      height: 10px;
+      background: var(--line);
+      border-radius: 99px;
+      overflow: hidden;
+    }
+
+    .bar>i {
+      display: block;
+      height: 100%;
+      background: var(--accent);
+      border-radius: 99px;
+      min-width: 0;
+    }
+
+    .bar.full>i {
+      background: var(--ok);
+    }
+
+    .bar.lg {
+      height: 16px;
+      margin-top: 12px;
+    }
+
+    .bar.sm {
+      height: 6px;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .bar>i {
+        transition: width .35s ease;
+      }
+    }
+
+    /* toolbar */
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 16px;
+      align-items: center;
+    }
+
+    .seg {
+      display: inline-flex;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 3px;
+      gap: 2px;
+    }
+
+    .seg button {
+      border: 0;
+      background: transparent;
+      padding: 7px 14px;
+      border-radius: 7px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .seg button[aria-pressed="true"] {
+      background: var(--accent);
+      color: var(--accent-ink);
+    }
+
+    .toolbar label.lbl {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--muted);
+      font-weight: 600;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .search {
+      flex: 1 1 200px;
+      min-width: 0;
+    }
+
+    .search input {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--ink);
+      border-radius: 10px;
+      font: inherit;
+    }
+
+    .search input::placeholder {
+      color: var(--muted);
+    }
+
+    /* facet panels */
+    .panels {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+      gap: 16px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+      min-width: 0;
+    }
+
+    .panel h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .facet {
+      width: 100%;
+      text-align: left;
+      border: 1px solid transparent;
+      background: transparent;
+      padding: 6px 8px;
+      border-radius: 8px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 3px 8px;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    /* Keep long filter lists compact and scrollable instead of letting
+       the statistics panels grow indefinitely. */
+    .panel>#pSerie,
+    .panel>#pType,
+    .panel>#pVar {
+      max-height: 260px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      overscroll-behavior: contain;
+      scrollbar-gutter: stable;
+      padding-right: 4px;
+    }
+
+    .panel>#pSerie::-webkit-scrollbar,
+    .panel>#pType::-webkit-scrollbar,
+    .panel>#pVar::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    .panel>#pSerie::-webkit-scrollbar-thumb,
+    .panel>#pType::-webkit-scrollbar-thumb,
+    .panel>#pVar::-webkit-scrollbar-thumb {
+      background: var(--line);
+      border-radius: 99px;
+    }
+
+    .facet:hover {
+      background: var(--surface-2);
+    }
+
+    .facet[aria-pressed="true"] {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    .facet .name {
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .facet .cnt {
+      color: var(--muted);
+      font-size: 11px;
+      white-space: nowrap;
+    }
+
+    .facet .cnt b {
+      color: var(--ink);
+    }
+
+    .facet .bar {
+      grid-column: 1 / -1;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 13px;
+      margin: 0 0 10px;
+    }
+
+    /* filter chips + results */
+    .activebar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      min-height: 0;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent-soft);
+      color: var(--ink);
+      border: 1px solid var(--accent);
+      border-radius: 99px;
+      padding: 4px 6px 4px 12px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .chip button {
+      border: 0;
+      background: var(--accent);
+      color: var(--accent-ink);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      line-height: 1;
+      padding: 0;
+      font-size: 13px;
+    }
+
+    .count-line {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr));
+      gap: 14px;
+      align-items: start;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .card.done {
+      border-color: var(--ok);
+    }
+
+    .card header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 10px;
+    }
+
+    .card h3 {
+      font-size: 22px;
+      overflow-wrap: anywhere;
+    }
+
+    .pill {
+      font-size: 12px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 99px;
+      background: var(--surface-2);
+      border: 1px solid var(--line);
+      white-space: nowrap;
+      color: var(--muted);
+    }
+    .pill.some {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--ink);
+    }
+
+    .pill.all {
+      background: var(--ok-soft);
+      border-color: var(--ok);
+      color: var(--ink);
+    }
+
+    .vlist {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .v {
+      width: 100%;
+      text-align: left;
+      display: grid;
+      grid-template-columns: 26px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      background: var(--surface-2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 8px 10px;
+    }
+
+    .v:hover {
+      border-color: var(--accent);
+    }
+
+    .v[aria-pressed="true"] {
+      background: var(--ok-soft);
+      border-color: var(--ok);
+    }
+
+    .box {
+      width: 24px;
+      height: 24px;
+      border-radius: 7px;
+      border: 2px solid var(--muted);
+      display: grid;
+      place-items: center;
+      background: var(--surface);
+    }
+
+    .v[aria-pressed="true"] .box {
+      background: var(--ok);
+      border-color: var(--ok);
+    }
+
+    .box svg {
+      width: 14px;
+      height: 14px;
+      stroke: var(--surface);
+      opacity: 0;
+    }
+
+    .v[aria-pressed="true"] .box svg {
+      opacity: 1;
+    }
+
+    .vt {
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .vm {
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .vs {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin-left: 6px;
+      color: var(--miss);
+    }
+    .vp {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      margin-left: 6px;
+      color: var(--not-played);
+    }
+
+    .v[aria-pressed="true"] .vs {
+      color: var(--ok);
+    }
+
+    .empty {
+      background: var(--surface);
+      border: 1px dashed var(--line);
+      border-radius: 14px;
+      padding: 28px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .empty button {
+      margin-top: 10px;
+    }
+
+    .btn {
+      border: 1px solid var(--line);
+      background: var(--surface);
+      border-radius: 10px;
+      padding: 8px 14px;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+    }
+
+    .btn.primary {
+      background: var(--accent);
+      color: var(--accent-ink);
+      border-color: var(--accent);
+    }
+
+    /* data panel */
+    details.data {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px 16px;
+    }
+
+    details.data summary {
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    details.data textarea {
+      width: 100%;
+      min-height: 180px;
+      margin-top: 12px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--surface-2);
+      color: var(--ink);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12.5px;
+      resize: vertical;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      align-items: center;
+    }
+.rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.rating-bar {
+  display: inline-block;
+  width: 45px;
+  height: 6px;
+  background: var(--line);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.rating-bar i {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 99px;
+}
+
+.rating-value {
+  min-width: 25px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+    .msg {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .msg.err {
+      color: var(--miss);
+      font-weight: 600;
+    }
+
+    @media (max-width: 720px) {
+      .summary {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 16px;
+      }
+
+      .summary h1 {
+        font-size: 28px;
+      }
+
+      .big b {
+        font-size: 46px;
+      }
+    }
+
+    .panel-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .panel-head h2 {
+      margin: 0;
+    }
+
+    .seg.small button {
+      padding: 5px 10px;
+      font-size: 13px;
+    }
+  </style>
+
+  <div class="wrap">
+    <section class="summary" aria-label="Collection summary">
+      <div>
+        <h1>Skylanders Collection</h1>
+        <p class="sub" id="sub"></p>
+        <div class="big"><b class="num" id="bigPct">0%</b><span id="bigTxt"></span></div>
+        <div id="bigBar"></div>
+      </div>
+      <div class="side">
+        <div class="kv" id="kvChars"></div>
+        <div class="kv" id="kvMissing"></div>
+      </div>
+    </section>
+
+    <div class="toolbar">
+      <label class="lbl">Stats count
+        <span class="seg" id="basisSeg" role="group" aria-label="Count by">
+          <button type="button" data-basis="variants" aria-pressed="true">Variants</button>
+          <button type="button" data-basis="chars" aria-pressed="false">Characters (1+ owned)</button>
+        </span>
+      </label>
+      <label class="lbl">Show
+        <span class="seg" id="statusSeg" role="group" aria-label="Status filter">
+          <button type="button" data-status="all" aria-pressed="true">All</button>
+          <button type="button" data-status="missing" aria-pressed="false">Not owned</button>
+          <button type="button" data-status="owned" aria-pressed="false">Owned</button>
+          <button type="button" data-status="none-owned" aria-pressed="false">No variants owned</button>
+        </span>
+      </label>
+      <label class="lbl search" for="q">Find a character
+        <input id="q" type="search" placeholder="Name" autocomplete="off">
+      </label>
+    </div>
+
+    <section class="panels" aria-label="Statistics">
+      <div class="panel">
+        <h2>Per series</h2>
+        <p class="hint">Select a row to filter the list below.</p>
+        <div id="pSerie"></div>
+      </div>
+      <div class="panel">
+        <h2>Per type</h2>
+        <p class="hint">Select a row to filter the list below.</p>
+        <div id="pType"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <h2>Per variant type</h2>
+          <span class="seg small" id="vsortSeg" role="group" aria-label="Sort variant types">
+            <button type="button" data-vsort="count" aria-pressed="true">Most to least</button>
+            <button type="button" data-vsort="alpha" aria-pressed="false">A–Z</button>
+          </span>
+        </div>
+        <p class="hint">Select a row to filter the list below.</p>
+        <div id="pVar"></div>
+      </div>
+    </section>
+
+    <div class="activebar" id="activeBar"></div>
+    <div class="count-line" id="countLine" aria-live="polite"></div>
+    <section class="grid" id="list" aria-label="Characters"></section>
+
+    <details class="data" id="dataBox">
+      <summary>Your data</summary>
+      <p class="hint" style="margin-top:10px">The page loads your sample of two characters. Paste your full JSON here
+        and apply it. Ownership you tick is kept in this browser; copy the updated JSON to keep a backup.</p>
+      <textarea id="json" spellcheck="false" aria-label="Collection JSON"></textarea>
+      <div class="actions">
+        <button type="button" class="btn primary" id="apply">Apply JSON</button>
+        <button type="button" class="btn" id="copy">Copy current JSON</button>
+        <button type="button" class="btn" id="reset">Back to sample</button>
+        <span class="msg" id="msg" role="status"></span>
+      </div>
+    </details>
+  </div>
+
+  <script>
+
+    (async function () {
+      const fet = await fetch("/list.json");
+      const SAMPLE = await fet.json();
+
+      var KEY = "skylanders-collection-v1";
+      var $ = function (id) { return document.getElementById(id); };
+      // var state = { basis: "variants", status: "all", q: "", f: { serie: null, type: null, variant_type: null } };
+      var state = { basis: "variants", status: "all", q: "", vsort: "count", f: { serie: null, type: null, variant_type: null } };
+      var data;
+
+      function clone(x) { return JSON.parse(JSON.stringify(x)); }
+      function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+
+      function validate(arr) {
+        if (!Array.isArray(arr)) throw new Error("The JSON must be a list of characters.");
+        return arr.map(function (c, i) {
+          if (!c || typeof c.name !== "string" || !Array.isArray(c.variants)) throw new Error("Entry " + (i + 1) + " needs a name and a variants list.");
+          return {
+            name: c.name, variants: c.variants.map(function (v, j) {
+              if (!v || typeof v !== "object") throw new Error(c.name + ": variant " + (j + 1) + " is not an object.");
+              // return { owned: !!v.owned, serie: String(v.serie || "Unknown series"), type: String(v.type || "Unknown type"), variant_type: String(v.variant_type || "Unknown") };
+//               return {
+//   owned: !!v.owned,
+//   rating: !!v.rating,
+//   serie: String(v.serie || "Unknown series"),
+//   type: String(v.type || "Unknown type"),
+//   variant_type: String(v.variant_type || "Unknown")
+// };
+return {
+  owned: !!v.owned,
+  rating: v.rating === "" || v.rating === null || v.rating === undefined
+    ? null
+    : Math.max(0, Math.min(100, Number(v.rating) || 0)),
+  serie: String(v.serie || "Unknown series"),
+  type: String(v.type || "Unknown type"),
+  variant_type: String(v.variant_type || "Unknown")
+};
+            })
+          };
+        });
+      }
+      function load() {
+        try { var raw = localStorage.getItem(KEY); if (raw) return validate(JSON.parse(raw)); } catch (e) { }
+        return clone(SAMPLE);
+      }
+      function save() { try { localStorage.setItem(KEY, JSON.stringify(data)); } catch (e) { } }
+
+      function pct(a, b) { return b ? Math.round((a / b) * 100) : 0; }
+      function bar(a, b, cls) {
+        var p = b ? (a / b) * 100 : 0;
+        return '<div class="bar ' + (cls || "") + (b && a === b ? " full" : "") + '" role="img" aria-label="' + pct(a, b) + ' percent"><i style="width:' + p + '%"></i></div>';
+      }
+
+      function totals() {
+        var tv = 0, ov = 0, tc = data.length, oc = 0;
+        data.forEach(function (c) {
+          var o = 0;
+          c.variants.forEach(function (v) { tv++; if (v.owned) { ov++; o++; } });
+          if (o > 0) oc++;
+        });
+        return { tv: tv, ov: ov, tc: tc, oc: oc };
+      }
+
+
+      function getFacetValue(key, value) {
+        var k = String(value || "").trim();
+
+        if (!k || k === "Unknown" || k === "Unknown series") {
+          return "Other";
+        }
+
+        if (key === "serie" || key === "variant_type") {
+          var count = 0;
+
+          data.forEach(function (c) {
+            c.variants.forEach(function (v) {
+              var val = String(v[key] || "").trim();
+
+              if (!val || val === "Unknown" || val === "Unknown series") {
+                val = "Other";
+              }
+
+              if (val === k) count++;
+            });
+          });
+
+          if (count === 1) return "Other";
+        }
+
+        return k;
+      }
+
+      function facetStats(key) {
+        var map = {};
+        var groupOther = key === "serie" || key === "variant_type";
+        var counts = {};
+
+        // First pass: count how many variants each category has
+        data.forEach(function (c) {
+          c.variants.forEach(function (v) {
+            var k = String(v[key] || "").trim();
+
+            if (!k || k === "Unknown" || k === "Unknown series") {
+              k = "Other";
+            }
+
+            counts[k] = (counts[k] || 0) + 1;
+          });
+        });
+
+        // Second pass: build statistics
+        data.forEach(function (c) {
+          var seen = {}, seenOwned = {};
+
+          c.variants.forEach(function (v) {
+            var k = String(v[key] || "").trim();
+
+            if (!k || k === "Unknown" || k === "Unknown series") {
+              k = "Other";
+            }
+
+            // Group categories with only one variant into Other
+            if (groupOther && k !== "Other" && counts[k] === 1) {
+              k = "Other";
+            }
+
+            var m = map[k] || (map[k] = {
+              k: k, tv: 0, ov: 0, tc: 0, oc: 0
+            });
+
+            m.tv++;
+            if (v.owned) m.ov++;
+
+            if (!seen[k]) {
+              seen[k] = 1;
+              m.tc++;
+            }
+
+            if (v.owned && !seenOwned[k]) {
+              seenOwned[k] = 1;
+              m.oc++;
+            }
+          });
+        });
+
+        var SERIE_ORDER = [
+          "spyro", "giants", "swap",
+          "trap", "supercharger", "imaginator"
+        ];
+
+        function serieRank(name) {
+          var n = String(name).toLowerCase();
+
+          for (var i = 0; i < SERIE_ORDER.length; i++) {
+            if (n.indexOf(SERIE_ORDER[i]) !== -1) return i;
+          }
+
+          return SERIE_ORDER.length;
+        }
+
+        return Object.keys(map).map(function (k) {
+          return map[k];
+        }).sort(function (a, b) {
+          if (groupOther) {
+            if (a.k === "Other") return -1;
+            if (b.k === "Other") return 1;
+          }
+
+          if (key === "serie") {
+            var d = serieRank(a.k) - serieRank(b.k);
+            if (d) return d;
+          }
+
+          if (key === "variant_type" && state.vsort === "count") {
+            var countDiff = b.tv - a.tv;
+            if (countDiff) return countDiff;
+          }
+
+          return a.k.localeCompare(b.k);
+        });
+      }
+
+      function renderSummary() {
+        var t = totals();
+        $("sub").textContent = t.tc + " characters, " + t.tv + " variants tracked.";
+        $("bigPct").textContent = pct(t.ov, t.tv) + "%";
+        $("bigTxt").textContent = t.ov + " of " + t.tv + " variants owned";
+        $("bigBar").innerHTML = bar(t.ov, t.tv, "lg");
+        $("kvChars").innerHTML = '<div class="row"><span class="lab">Characters with at least 1 variant owned</span><span class="val num">' + t.oc + " / " + t.tc + " · " + pct(t.oc, t.tc) + '%</span></div>' + bar(t.oc, t.tc, "sm");
+        $("kvMissing").innerHTML = '<div class="row"><span class="lab">Variants still missing</span><span class="val num">' + (t.tv - t.ov) + '</span></div><div class="row"><span class="lab">Characters with nothing owned</span><span class="val num">' + (t.tc - t.oc) + "</span></div>";
+      }
+
+      function renderPanel(el, key) {
+        var rows = facetStats(key), chars = state.basis === "chars";
+        el.innerHTML = rows.map(function (r) {
+          var a = chars ? r.oc : r.ov, b = chars ? r.tc : r.tv;
+          var on = state.f[key] === r.k;
+          return '<button type="button" class="facet" data-key="' + key + '" data-val="' + esc(r.k) + '" aria-pressed="' + on + '">' +
+            '<span class="name">' + esc(r.k) + '</span><span class="cnt num"><b>' + a + " / " + b + "</b> · " + pct(a, b) + "%</span>" + bar(a, b) + "</button>";
+        }).join("");
+      }
+
+      var labels = { serie: "Series", type: "Type", variant_type: "Variant" };
+      function renderActive() {
+        var chips = Object.keys(state.f).filter(function (k) { return state.f[k]; }).map(function (k) {
+          return '<span class="chip">' + labels[k] + ": " + esc(state.f[k]) + '<button type="button" data-clear="' + k + '" aria-label="Remove ' + labels[k] + ' filter">×</button></span>';
+        });
+        $("activeBar").innerHTML = chips.join("");
+      }
+
+      var CHECK = '<svg viewBox="0 0 16 16" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3.2 3L13 4.5"/></svg>';
+      const imageCache = {};
+
+      async function findCharacterImage(name) {
+        if (imageCache[name]) return imageCache[name];
+
+        const params = new URLSearchParams({
+          action: "query",
+          generator: "search",
+          gsrsearch: name + " Skylanders",
+          gsrnamespace: "0",
+          gsrlimit: "5",
+          prop: "pageimages",
+          piprop: "thumbnail",
+          pithumbsize: "500",
+          format: "json",
+          origin: "*"
+        });
+
+        try {
+          const response = await fetch(
+            "https://skylanders.fandom.com/api.php?" + params
+          );
+
+          const result = await response.json();
+          const pages = Object.values(result.query?.pages || {});
+
+          const page = pages.find(p =>
+            p.thumbnail?.source
+          );
+
+          imageCache[name] = page?.thumbnail?.source || null;
+          return imageCache[name];
+
+        } catch (error) {
+          console.warn("Could not find image for:", name, error);
+          return null;
+        }
+      }
+      function renderList() {
+        
+        var q = state.q.trim().toLowerCase(), out = [], nv = 0;
+        data.forEach(function (c, ci) {
+          if (q && c.name.toLowerCase().indexOf(q) === -1) return;
+
+          // Show only characters with zero owned variants
+          if (state.status === "none-owned" &&
+            c.variants.some(function (v) { return v.owned; })) return;
+          var vs = [];
+
+          c.variants.forEach(function (v, vi) {
+            // if (state.f.serie && v.serie !== state.f.serie) return;
+            // if (state.f.type && v.type !== state.f.type) return;
+            // if (state.f.variant_type && v.variant_type !== state.f.variant_type) return;
+            if (state.f.serie && getFacetValue("serie", v.serie) !== state.f.serie) return;
+            if (state.f.type && v.type !== state.f.type) return;
+            if (state.f.variant_type && getFacetValue("variant_type", v.variant_type) !== state.f.variant_type) return;
+            if (state.status === "owned" && !v.owned) return;
+            if (state.status === "missing" && v.owned) return;
+            if (state.status === "none-owned" && v.owned) return;
+            vs.push({ v: v, vi: vi });
+          });
+          if (!vs.length) return;
+          nv += vs.length;
+          var own = c.variants.filter(function (v) { return v.owned; }).length, tot = c.variants.length;
+          var cls = own === tot ? "all" : own > 0 ? "some" : "";
+          out.push('<article class="card' + (own === tot && tot ? " done" : "") + '">' +
+            '<img class="character-image" data-character="' + esc(c.name) +
+            '" alt="' + esc(c.name) + '" loading="lazy" hidden>' +
+            '<header><h3>' + esc(c.name) + '</h3>' +
+            '<span class="pill num ' + cls + '">' + own + " / " + tot + " owned</span>" +
+            "</header>" +
+            bar(own, tot, "sm") +
+
+            '<ul class="vlist">' + vs.map(function (x) {
+              // var returner = '<li><button type="button" class="v" data-ci="' + ci + '" data-vi="' + x.vi + '" aria-pressed="' + x.v.owned + '"><span class="box">' + CHECK + '</span><span><span class="vt">' + esc(x.v.variant_type) + '</span><span class="vs">' + (x.v.owned ? "Owned" : "Not owned") + '</span><br><span class="vm">' + esc(x.v.serie) + " · " + esc(x.v.type)
+
+var rating = ''; 
+
+if (typeof x.v.rating == "number") {  
+  rating = Number.isFinite(Number(x.v.rating)) && x.v.rating !== "" && x.v.rating !== null
+  ? '<span class="rating">' +
+    '<span class="rating-bar"><i style="width:' + Math.max(0, Math.min(100, Number(x.v.rating))) + '%"></i></span>' +
+    '<span class="rating-value">' + Number(x.v.rating) + '</span>' +
+    '</span>'
+    : '';
+} else {
+  rating = "<span class='vp'>Not played</span>"
+}
+    
+
+
+var returner = '<li><button type="button" class="v" data-ci="' + ci + '" data-vi="' + x.vi + '" aria-pressed="' + x.v.owned + '">' +
+  '<span class="box">' + CHECK + '</span>' +
+  '<span>' +
+    '<span class="vt">' + esc(x.v.variant_type) + '</span>' +
+    rating +
+    '<span class="vs">' + (x.v.owned ? "Owned" : "Not owned") + '</span>' +
+    '<br><span class="vm">' + esc(x.v.serie) + " · " + esc(x.v.type);
+              if (x.v.nickname) {
+                returner += " · " + esc(x.v.nickname)
+              }
+
+              returner += "</span></span></button></li>";
+              return returner;
+            }).join("") + "</ul></article>");
+        });
+        $("list").innerHTML = out.length ? out.join("") : "";
+        $("countLine").textContent = out.length ? "Showing " + out.length + " character" + (out.length === 1 ? "" : "s") + " and " + nv + " variant" + (nv === 1 ? "" : "s") + "." : "";
+        if (!out.length) $("list").innerHTML = '<div class="empty">No variants match these filters.<br><button type="button" class="btn" id="clearAll">Clear filters</button></div>';
+        $("list").querySelectorAll(".character-image").forEach(async function (img) {
+          const name = img.dataset.character;
+          const src = await findCharacterImage(name);
+
+          if (src && img.isConnected) {
+            img.src = src;
+            img.hidden = false;
+          }
+        });
+      }
+
+      function renderAll() {
+        renderSummary();
+        renderPanel($("pSerie"), "serie");
+        renderPanel($("pType"), "type");
+        renderPanel($("pVar"), "variant_type");
+        renderActive();
+        renderList();
+      }
+
+      function setMsg(t, err) { var m = $("msg"); m.textContent = t; m.className = "msg" + (err ? " err" : ""); }
+
+      document.addEventListener("click", function (e) {
+        var t = e.target.closest("button");
+        if (!t) return;
+        if (t.dataset.ci !== undefined) {
+          var v = data[+t.dataset.ci].variants[+t.dataset.vi]; v.owned = !v.owned; save(); renderAll(); return;
+        }
+        if (t.dataset.key) { var k = t.dataset.key; state.f[k] = state.f[k] === t.dataset.val ? null : t.dataset.val; renderAll(); return; }
+        if (t.dataset.clear) { state.f[t.dataset.clear] = null; renderAll(); return; }
+        if (t.id === "clearAll") { state.f = { serie: null, type: null, variant_type: null }; state.status = "all"; state.q = ""; $("q").value = ""; syncSeg(); renderAll(); return; }
+        if (t.dataset.basis) { state.basis = t.dataset.basis; syncSeg(); renderAll(); return; }
+        if (t.dataset.status) { state.status = t.dataset.status; syncSeg(); renderList(); return; }
+        if (t.dataset.vsort) { state.vsort = t.dataset.vsort; syncSeg(); renderPanel($("pVar"), "variant_type"); return; }
+      });
+      function syncSeg() {
+        Array.prototype.forEach.call($("basisSeg").children, function (b) { b.setAttribute("aria-pressed", b.dataset.basis === state.basis); });
+        Array.prototype.forEach.call($("statusSeg").children, function (b) { b.setAttribute("aria-pressed", b.dataset.status === state.status); });
+        Array.prototype.forEach.call($("vsortSeg").children, function (b) { b.setAttribute("aria-pressed", b.dataset.vsort === state.vsort); });
+      }
+      $("q").addEventListener("input", function (e) { state.q = e.target.value; renderList(); });
+
+      $("apply").addEventListener("click", function () {
+        try {
+          data = validate(JSON.parse($("json").value));
+          save(); state.f = { serie: null, type: null, variant_type: null }; renderAll();
+          setMsg("Loaded " + data.length + " characters.");
+        } catch (err) { setMsg("Could not read the JSON: " + err.message, true); }
+      });
+      $("copy").addEventListener("click", function () {
+        var txt = JSON.stringify(data, null, 2);
+        $("json").value = txt;
+        var done = function () { setMsg("Copied the current JSON."); };
+        var fail = function () { $("json").focus(); $("json").select(); setMsg("Copy was blocked. The JSON is selected, press Ctrl+C."); };
+        try { navigator.clipboard.writeText(txt).then(done, fail); } catch (e) { fail(); }
+      });
+      $("reset").addEventListener("click", function () {
+        data = clone(SAMPLE); save(); $("json").value = JSON.stringify(data, null, 2); renderAll(); setMsg("Back to the two-character sample.");
+      });
+
+      data = load();
+      $("json").value = JSON.stringify(data, null, 2);
+      renderAll();
+    })();
+  </script>
+
+</body>
+
+</html>
