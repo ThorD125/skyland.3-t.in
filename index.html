@@ -501,6 +501,7 @@
       white-space: nowrap;
       color: var(--muted);
     }
+
     .pill.some {
       background: var(--accent-soft);
       border-color: var(--accent);
@@ -589,6 +590,7 @@
       margin-left: 6px;
       color: var(--miss);
     }
+
     .vp {
       font-size: 12px;
       font-weight: 700;
@@ -667,37 +669,39 @@
       margin-top: 10px;
       align-items: center;
     }
-.rating {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  margin-left: 8px;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--muted);
-}
 
-.rating-bar {
-  display: inline-block;
-  width: 45px;
-  height: 6px;
-  background: var(--line);
-  border-radius: 99px;
-  overflow: hidden;
-}
+    .rating {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-left: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--muted);
+    }
 
-.rating-bar i {
-  display: block;
-  height: 100%;
-  background: var(--accent);
-  border-radius: 99px;
-}
+    .rating-bar {
+      display: inline-block;
+      width: 45px;
+      height: 6px;
+      background: var(--line);
+      border-radius: 99px;
+      overflow: hidden;
+    }
 
-.rating-value {
-  min-width: 25px;
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
+    .rating-bar i {
+      display: block;
+      height: 100%;
+      background: var(--accent);
+      border-radius: 99px;
+    }
+
+    .rating-value {
+      min-width: 25px;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
     .msg {
       color: var(--muted);
       font-size: 13px;
@@ -841,31 +845,35 @@
             name: c.name, variants: c.variants.map(function (v, j) {
               if (!v || typeof v !== "object") throw new Error(c.name + ": variant " + (j + 1) + " is not an object.");
               // return { owned: !!v.owned, serie: String(v.serie || "Unknown series"), type: String(v.type || "Unknown type"), variant_type: String(v.variant_type || "Unknown") };
-//               return {
-//   owned: !!v.owned,
-//   rating: !!v.rating,
-//   serie: String(v.serie || "Unknown series"),
-//   type: String(v.type || "Unknown type"),
-//   variant_type: String(v.variant_type || "Unknown")
-// };
-return {
-  owned: !!v.owned,
-  rating: v.rating === "" || v.rating === null || v.rating === undefined
-    ? null
-    : Math.max(0, Math.min(100, Number(v.rating) || 0)),
-  serie: String(v.serie || "Unknown series"),
-  type: String(v.type || "Unknown type"),
-  variant_type: String(v.variant_type || "Unknown")
-};
+              //               return {
+              //   owned: !!v.owned,
+              //   rating: !!v.rating,
+              //   serie: String(v.serie || "Unknown series"),
+              //   type: String(v.type || "Unknown type"),
+              //   variant_type: String(v.variant_type || "Unknown")
+              // };
+              return {
+                owned: !!v.owned,
+                rating: v.rating === "" || v.rating === null || v.rating === undefined
+                  ? null
+                  : Math.max(0, Math.min(100, Number(v.rating) || 0)),
+                serie: String(v.serie || "Unknown series"),
+                type: String(v.type || "Unknown type"),
+                variant_type: String(v.variant_type || "Unknown")
+              };
             })
           };
         });
       }
-      function load() {
-        try { var raw = localStorage.getItem(KEY); if (raw) return validate(JSON.parse(raw)); } catch (e) { }
-        return clone(SAMPLE);
+      // async function initload() {
+      //   try { var raw = localStorage.getItem(KEY); if (raw) return validate(JSON.parse(raw)); } catch (e) { }
+      //   return clone(SAMPLE);
+      // }
+      async function load() {
+        const fet = await fetch("/list.json");
+        return await fet.json();
       }
-      function save() { try { localStorage.setItem(KEY, JSON.stringify(data)); } catch (e) { } }
+      // function save() { try { localStorage.setItem(KEY, JSON.stringify(data)); } catch (e) { } }
 
       function pct(a, b) { return b ? Math.round((a / b) * 100) : 0; }
       function bar(a, b, cls) {
@@ -1070,7 +1078,7 @@ return {
         }
       }
       function renderList() {
-        
+
         var q = state.q.trim().toLowerCase(), out = [], nv = 0;
         data.forEach(function (c, ci) {
           if (q && c.name.toLowerCase().indexOf(q) === -1) return;
@@ -1107,28 +1115,28 @@ return {
             '<ul class="vlist">' + vs.map(function (x) {
               // var returner = '<li><button type="button" class="v" data-ci="' + ci + '" data-vi="' + x.vi + '" aria-pressed="' + x.v.owned + '"><span class="box">' + CHECK + '</span><span><span class="vt">' + esc(x.v.variant_type) + '</span><span class="vs">' + (x.v.owned ? "Owned" : "Not owned") + '</span><br><span class="vm">' + esc(x.v.serie) + " · " + esc(x.v.type)
 
-var rating = ''; 
+              var rating = '';
 
-if (typeof x.v.rating == "number") {  
-  rating = Number.isFinite(Number(x.v.rating)) && x.v.rating !== "" && x.v.rating !== null
-  ? '<span class="rating">' +
-    '<span class="rating-bar"><i style="width:' + Math.max(0, Math.min(100, Number(x.v.rating))) + '%"></i></span>' +
-    '<span class="rating-value">' + Number(x.v.rating) + '</span>' +
-    '</span>'
-    : '';
-} else {
-  rating = "<span class='vp'>Not played</span>"
-}
-    
+              if (typeof x.v.rating == "number") {
+                rating = Number.isFinite(Number(x.v.rating)) && x.v.rating !== "" && x.v.rating !== null
+                  ? '<span class="rating">' +
+                  '<span class="rating-bar"><i style="width:' + Math.max(0, Math.min(100, Number(x.v.rating))) + '%"></i></span>' +
+                  '<span class="rating-value">' + Number(x.v.rating) + '</span>' +
+                  '</span>'
+                  : '';
+              } else {
+                rating = "<span class='vp'>Not played</span>"
+              }
 
 
-var returner = '<li><button type="button" class="v" data-ci="' + ci + '" data-vi="' + x.vi + '" aria-pressed="' + x.v.owned + '">' +
-  '<span class="box">' + CHECK + '</span>' +
-  '<span>' +
-    '<span class="vt">' + esc(x.v.variant_type) + '</span>' +
-    rating +
-    '<span class="vs">' + (x.v.owned ? "Owned" : "Not owned") + '</span>' +
-    '<br><span class="vm">' + esc(x.v.serie) + " · " + esc(x.v.type);
+
+              var returner = '<li><button type="button" class="v" data-ci="' + ci + '" data-vi="' + x.vi + '" aria-pressed="' + x.v.owned + '">' +
+                '<span class="box">' + CHECK + '</span>' +
+                '<span>' +
+                '<span class="vt">' + esc(x.v.variant_type) + '</span>' +
+                rating +
+                '<span class="vs">' + (x.v.owned ? "Owned" : "Not owned") + '</span>' +
+                '<br><span class="vm">' + esc(x.v.serie) + " · " + esc(x.v.type);
               if (x.v.nickname) {
                 returner += " · " + esc(x.v.nickname)
               }
@@ -1166,7 +1174,12 @@ var returner = '<li><button type="button" class="v" data-ci="' + ci + '" data-vi
         var t = e.target.closest("button");
         if (!t) return;
         if (t.dataset.ci !== undefined) {
-          var v = data[+t.dataset.ci].variants[+t.dataset.vi]; v.owned = !v.owned; save(); renderAll(); return;
+          var v = data[+t.dataset.ci].variants[+t.dataset.vi];
+          v.owned = !v.owned;
+          // save();
+          renderAll();
+          return;
+
         }
         if (t.dataset.key) { var k = t.dataset.key; state.f[k] = state.f[k] === t.dataset.val ? null : t.dataset.val; renderAll(); return; }
         if (t.dataset.clear) { state.f[t.dataset.clear] = null; renderAll(); return; }
@@ -1185,7 +1198,10 @@ var returner = '<li><button type="button" class="v" data-ci="' + ci + '" data-vi
       $("apply").addEventListener("click", function () {
         try {
           data = validate(JSON.parse($("json").value));
-          save(); state.f = { serie: null, type: null, variant_type: null }; renderAll();
+          // save();
+          state.f = { serie: null, type: null, variant_type: null };
+          renderAll();
+
           setMsg("Loaded " + data.length + " characters.");
         } catch (err) { setMsg("Could not read the JSON: " + err.message, true); }
       });
@@ -1197,10 +1213,14 @@ var returner = '<li><button type="button" class="v" data-ci="' + ci + '" data-vi
         try { navigator.clipboard.writeText(txt).then(done, fail); } catch (e) { fail(); }
       });
       $("reset").addEventListener("click", function () {
-        data = clone(SAMPLE); save(); $("json").value = JSON.stringify(data, null, 2); renderAll(); setMsg("Back to the two-character sample.");
+        data = clone(SAMPLE);
+        //  save();
+        $("json").value = JSON.stringify(data, null, 2);
+        renderAll();
+        setMsg("Back to the two-character sample.");
       });
 
-      data = load();
+      data = await load();
       $("json").value = JSON.stringify(data, null, 2);
       renderAll();
     })();
