@@ -5286,7 +5286,7 @@
         "name": "Fanged",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Imaginators",
                 "type": "Creation Crystals",
