@@ -628,7 +628,7 @@
                 "variant_type": "Hyper Beam"
             },
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -701,7 +701,7 @@
         "name": "Sonic Boom",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -817,7 +817,7 @@
                 "variant_type": "Elite"
             },
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Swap Force",
                 "type": "Series 3",
@@ -979,7 +979,7 @@
         "name": "Trigger Happy",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -1221,7 +1221,7 @@
         "name": "Zap",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -1930,7 +1930,7 @@
         "name": "Cannon",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Giants",
                 "type": "Magic Items Variant",
