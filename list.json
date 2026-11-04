@@ -54,6 +54,13 @@
                 "owned": false,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
                 "type": "Chase Variant",
                 "variant_type": "Silver"
             }
@@ -94,6 +101,13 @@
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
                 "variant_type": "Series 1"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
             },
             {
                 "owned": false,
@@ -190,11 +204,18 @@
         "name": "Dino-Rang",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
                 "variant_type": "Series 1"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
             },
             {
                 "owned": false,
@@ -209,7 +230,7 @@
         "name": "Double Trouble",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -268,7 +289,7 @@
         "name": "Drobot",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -310,6 +331,13 @@
                 "variant_type": "Baby"
             },
             {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
+            },
+            {
                 "nickname": "Eggsellent Weeruptor",
                 "owned": true,
                 "rating": false,
@@ -325,7 +353,7 @@
                 "variant_type": "Lava Barf"
             },
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -386,7 +414,7 @@
         "name": "Flameslinger",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -424,6 +452,13 @@
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
                 "variant_type": "Series 1"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
             }
         ]
     },
@@ -431,7 +466,7 @@
         "name": "Gill Grunt",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -494,7 +529,7 @@
         "variants": [
             {
                 "nickname": "Hijinx",
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Trap Team",
                 "type": "Mini Skylanders",
@@ -567,7 +602,7 @@
                 "variant_type": "Series 1"
             },
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Giants",
                 "type": "Series 2",
@@ -642,6 +677,13 @@
             {
                 "owned": false,
                 "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
+            },
+            {
+                "owned": false,
+                "rating": false,
                 "serie": "Skylanders Giants",
                 "type": "Series 2",
                 "variant_type": "Series 2"
@@ -692,11 +734,18 @@
         "name": "Spyro",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
                 "variant_type": "Series 1"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
             },
             {
                 "nickname": "Spry",
@@ -759,6 +808,13 @@
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
                 "variant_type": "Series 1"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
             },
             {
                 "owned": false,
@@ -882,6 +938,13 @@
                 "variant_type": "Series 1"
             },
             {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
+            },
+            {
                 "nickname": "Terrabite",
                 "owned": false,
                 "rating": false,
@@ -921,6 +984,13 @@
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
                 "variant_type": "Series 1"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
             },
             {
                 "owned": true,
@@ -985,11 +1055,18 @@
         "name": "Voodood",
         "variants": [
             {
+                "owned": true,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "",
+                "variant_type": "Series 1"
+            },
+            {
                 "owned": false,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
-                "type": "Core Skylanders",
-                "variant_type": "Series 1"
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
             }
         ]
     },
@@ -1059,11 +1136,18 @@
                 "owned": false,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
                 "type": "Chase Variant",
                 "variant_type": "Crystal Clear"
             },
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Giants",
                 "type": "Series 2",
@@ -1104,7 +1188,7 @@
         "name": "Wrecking Ball",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
@@ -1168,6 +1252,13 @@
                 "serie": "Skylanders Spyro’s Adventure",
                 "type": "Core Skylanders",
                 "variant_type": "Series 1"
+            },
+            {
+                "owned": false,
+                "rating": false,
+                "serie": "Skylanders Spyro’s Adventure",
+                "type": "Eon's Elite",
+                "variant_type": "Elite"
             },
             {
                 "owned": false,
@@ -1405,7 +1496,7 @@
             },
             {
                 "nickname": "Eye-Small",
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Giants",
                 "type": "Sidekicks",
@@ -1773,7 +1864,7 @@
         "name": "Shroomboom",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Trap Team",
                 "type": "Series 2",
@@ -2013,7 +2104,7 @@
         "name": "Free Ranger",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Swap Force",
                 "type": "Swappers",
@@ -2101,7 +2192,7 @@
         "name": "Night Shift",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Swap Force",
                 "type": "Swappers",
@@ -4964,7 +5055,7 @@
         "name": "Queen",
         "variants": [
             {
-                "owned": false,
+                "owned": true,
                 "rating": false,
                 "serie": "Skylanders Imaginators",
                 "type": "Sensei Villain",
